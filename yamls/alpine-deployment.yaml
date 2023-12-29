@@ -15,3 +15,5 @@ spec:
       containers:
       - name: test
         image: alpine
+        command: ["/bin/sh"]
+        args: ["-c", "sleep infinity"]
